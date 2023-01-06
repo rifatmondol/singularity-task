@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: "Integral CF";
+    // src: url(../Demo_Fonts/Fontspring-DEMO-integralcf-bold.otf);
+    // src: url(../Demo_Fonts/Fontspring-DEMO-integralcf-demibold.otf);
+    src: url(../Demo_Fonts/Fontspring-DEMO-integralcf-regular.otf);
+    // src: url(../Demo_Fonts/Fontspring-DEMO-integralcf-extrabold.otf);
+}
+
+$textWhite: #ffffff;
+$textMagenta: #3d00b7;
+$textBlack: #000000;
+$textLightGray: #EFEFEF;
+$textGreen: #00AC4F;
+$textGray: #565656;
+$textBlue: #2639ed;
+$fontBold: bold;
+$none: none;
+$fontFamily: "Integral CF", "sans-serif";
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px !important;
+}
+h1,h2,h3,h4,h5,h6,p,span{
+    color: $textBlack;
+}
+a{
+    text-decoration: $none!important;
+}
